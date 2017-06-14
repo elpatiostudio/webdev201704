@@ -1,0 +1,67 @@
+h2 {
+	font-size: 20px;
+	color: #9a9a9a;
+}
+div[class^="square"]:hover {
+    background: #c0c0c0;
+    border: solid 2px #5f5f5f;
+
+}
+div#square_container {
+    height: 110px;
+    overflow: hidden;
+}
+.square {
+    width: 100px;
+    height: 100px;
+    background: green;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+}
+.square_alt {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+}
+#circle_1 {
+    position: absolute;
+    width: 440px;
+    height: 440px;
+    background: green;
+    border-radius: 300px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+#circle_2 {
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    background: #00ffff;
+    border-radius: 300px;
+    margin-left: 40px;
+    margin-top: 40px;    
+}
+#circle_3 {
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    background: blue;
+    border-radius: 300px;
+    margin-left: 40px;
+    margin-top: 40px;    
+}
+#circle_4 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: red;
+    border-radius: 300px;
+    margin-left: 40px;
+    margin-top: 40px;    
+}
+
+
