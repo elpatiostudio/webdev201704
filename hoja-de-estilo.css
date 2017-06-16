@@ -1,0 +1,26 @@
+H2 {
+	color: grey;
+	font-size: 20px;
+}
+
+div {
+	background-color: green;
+	width: 26px;
+	padding: 27px;
+	border: 26px;
+	margin: 20px;
+}
+
+#third-square { 
+    background-color: blue;
+}
+
+#third-square:hover {
+    background-color: lightgrey;
+    border: 5px solid darkgrey;
+}
+
+div:hover {
+    background-color: lightgrey;
+    border: 5px solid darkgrey;
+}
